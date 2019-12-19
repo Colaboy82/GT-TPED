@@ -1,0 +1,118 @@
+body{
+    font-family: Montserrat;
+    min-width: 100px;
+    width: 70%;
+    max-width: 1000px;
+    height: 100%;
+    padding: 0px;
+    margin: auto;
+    background-color: aliceblue;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 15px solid darkgoldenrod;
+    margin: 0;
+    padding: 0;
+}
+
+#left{
+    float: left;
+    margin-top: 10px;
+    font-size: 8px;
+    padding-left: 0px;
+}
+
+#right{
+    float: right;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.mainBar{
+    position: relative; /*will adapt to size of window page*/
+    top: 10px;
+    padding: 20px 0px 75px 0px; /*padding from top*/
+    background-color: aliceblue;
+}
+
+.mainBar ul, li, a{
+    display: inline;
+    padding-left: 5px;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.jumbotron{
+    background-color: cornflowerblue;
+    position: relative;
+    top: 0px;
+    padding: 50px 0px 50px 0px;
+}
+.jumbotron h2{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px gray;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.main{
+    margin: 0px 25px 0px 25px;
+}
+
+#MediaLogo{
+    width: 10%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+p2{
+    margin-left: 50px;
+}
+.main p1,p2{
+    display: inline;
+}
+
+#title{
+    text-emphasis-style: filled;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#description{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+#email{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: black;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
