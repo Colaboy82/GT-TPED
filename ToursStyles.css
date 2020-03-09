@@ -73,21 +73,6 @@ hr {
     font-size: 20px;
     margin-bottom: 100px;
 }
-#ProjectPic{
-    margin-top: 200px;
-    width: 105%;
-    height: auto;
-}
-#SpeakerPic{
-    margin-top: 150px;
-    width: 105%;
-    height: auto;
-}
-#TourPic{
-    margin-top: 150px;
-    width: 105%;
-    height: auto;
-}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -106,23 +91,28 @@ hr {
     min-width: 100%;
     text-align: center;
 }
-.lbl{
-    display: block;
-    font-size: 35px;
-    text-align: center;
-}
-.Projlbl{
-    display: block;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 115px;
-}
-figcaption{
-    caption-side: bottom;
-}
 #Block{
     position: relative;
-    width: 450px;
+    width: auto;
     height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Block img{
+    position: absolute;
+    width: 45%;
+    top: 5%;
     float:left;
+}
+#name{
+    display: block;
+    margin-top: 100px;
+    margin-left: 475px;
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+#Block p{
+    font-size: 15px;
+    margin-left: 475px;
+    text-align: justify;
 }
